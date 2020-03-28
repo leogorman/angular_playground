@@ -1,0 +1,12 @@
+<h1>Breweries</h1>
+
+<!-- ** DISPLAY LIST DATA FROM BREWERY API ** -->
+
+<!-- IF BREWS DATA LIST EXISTS, SHOW UL ELEMENT & ITERATE THROUGH LIST -->
+<ul *ngIf="brews">
+  <li *ngFor="let brew of brews">
+    <p class="name">{{ brew.name }}</p>
+    <p class="country">{{ brew.country }}</p>
+    <a class="site" href="{{ brew.website_url }}">View Website</a>
+  </li>
+</ul>
