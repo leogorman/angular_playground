@@ -1,4 +1,4 @@
-# angular_crashcourse
+# angular_playground
 Project containing the main features of Angular 8 using the TypeScript programming language
 
 - Basic templating
